@@ -1,0 +1,30 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "reference": "721B55C6",
+      "name": "Dell Inspiron 14 3001",
+      "description": "Pantalla HD de 14 pulgadas, procesador Intel Celeron N4020, 4GB de memoria RAM y un disco duro de 128GB SSD. Windows 10 Home",
+      "value": 1633905
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "nid": "846F97DF38C8",
+      "subtotal": 1633905,
+      "total": 1895329.8,
+      "items": [
+        {
+          "reference": "721B55C6",
+          "name": "Dell Inspiron 14 3001",
+          "value": 1633905,
+          "quantity": 1,
+          "subtotal_quantity": 1633905,
+          "tax": 16,
+          "subtotal_item": 1895329.8
+        }
+      ]
+    }
+  ]
+}

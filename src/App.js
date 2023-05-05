@@ -1,25 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
+//css
+import "./App.css";
 
-function App() {
+//desing
+import { Container, Paper } from "@material-ui/core";
+
+//context
+import InventaryState from "./context/InventaryState";
+
+import NavBar from "./components/NavBar";
+import PrintZone from "./components/PrintZone";
+import DialogItem from "./components/DialogItem";
+import DialogOrder from "./components/DialogOrder";
+
+//components
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <InventaryState>
+      <Container>
+        <Paper className="paper nav">
+          <NavBar />
+        </Paper>
+        <Paper className="paper container">
+          <PrintZone />
+        </Paper>
+      </Container>
+      <DialogItem />
+      <DialogOrder />
+    </InventaryState>
   );
-}
+};
 
 export default App;
