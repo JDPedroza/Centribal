@@ -4,8 +4,8 @@ Aplicación de gestión de artículos y pedidos.
 
 ## Prerrequisitos
 
-Git
-Docker
+- Git
+- Docker
 
 ## Instalación
 
