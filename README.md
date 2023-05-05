@@ -7,7 +7,7 @@ Aplicación de gestión de artículos y pedidos.
 - Git
 - Docker
 
-## Instalación
+## Instalación (GitHub)
 
 1. Clonar el repositorio de Git
 
@@ -23,3 +23,12 @@ Aplicación de gestión de artículos y pedidos.
 
 5. En un navegador web, acceder a la aplicación en http://localhost:3000
 
+## Instalación (DockerHub)
+
+1. Descargar la imagen de Docker desde DockerHub con el siguiente comando:
+
+### `docker push jdpedroza/centribal:latest`
+
+2. Ejecutar la imagen de Docker con el siguiente comando:
+
+### `docker run -p 3000:3000 -p 3001:3001 centribal`
