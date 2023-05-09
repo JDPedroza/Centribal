@@ -27,7 +27,7 @@ Aplicación de gestión de artículos y pedidos.
 
 1. Descargar la imagen de Docker desde DockerHub con el siguiente comando:
 
-### `docker push jdpedroza/centribal:latest`
+### `docker pull jdpedroza/centribal:latest`
 
 2. Ejecutar la imagen de Docker con el siguiente comando:
 
